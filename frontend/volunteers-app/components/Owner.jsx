@@ -1,6 +1,6 @@
 import { Text, Input, Button, useToast, OrderedList } from '@chakra-ui/react';
 import { useAccount, useProvider, useSigner } from 'wagmi'
-import Contract from "../../../backend/artifacts/contracts/VolunteersNetwork.sol/VolunteersNetwork.json"
+import Contract from "../VolunteersNetwork.json"
 import { useState } from "react";
 import { ethers } from 'ethers'
 
